@@ -4,7 +4,7 @@
   with:
     # github clorinho to read the contribution graph from (**required**)
     # using action context var `github.repository_owner` or specified user
-    github_clorinho_: ${{ github.repository_owner }}
+    github_clorinho: ${{ github.repository_owner }}
 
     # list of files to generate.
     # one file per line. Each output can be customized with options as query string.
