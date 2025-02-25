@@ -1,10 +1,10 @@
 # 👋 Hello! Welcome to my Github profile.
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&theme=transparent)
-uses: clorinho/README.md
-  with:
-    # github user clorinho to read the contribution graph from (**required**)
+- uses: Platane/snk@v3
+  with: clorinho 
+    # github clorinho/README.md to read the contribution graph from (**required**)
     # using action context var `github.repository_owner` or specified user
-    github_user_clorinho: ${{ github.repository_owner }}
+    clorinho/README.md: ${{ github.repository_owner }}
 
     # list of files to generate.
     # one file per line. Each output can be customized with options as query string.
@@ -19,3 +19,8 @@ uses: clorinho/README.md
       dist/github-snake.svg
       dist/github-snake-dark.svg?palette=github-dark
       dist/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
+  <picture>
+  <source media="(prefers-color-scheme: dark)" srcset="github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="github-snake.svg" />
+  <img alt="github-snake" src="github-snake.svg" />
+</picture>
