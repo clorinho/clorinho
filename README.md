@@ -1,6 +1,6 @@
 # 👋 Hello! Welcome to my Github profile.
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&theme=transparent)
-uses: Platane/snk@v3
+uses: clorinho/README.md
   with:
     # github user clorinho to read the contribution graph from (**required**)
     # using action context var `github.repository_owner` or specified user
