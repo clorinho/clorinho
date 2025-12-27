@@ -6,7 +6,8 @@
   <source media="(prefers-color-scheme: light)" srcset="github-snake.svg" /
 
 
-Este exemplo utiliza _elif_ para verificar múltiplas condições.~~~~
+Estes exemplos para entrada:
+utiliza _elif_ para verificar múltiplas condições.~~~~
 
 O _while_ continua a execução enquanto a condição x < 10 for verdadeira.
 
